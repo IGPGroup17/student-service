@@ -1,3 +1,5 @@
+package com.igp.studentservice
+
 import com.amazonaws.services.lambda.runtime.{Context, RequestHandler}
 import com.amazonaws.services.lambda.runtime.events.{APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent}
 import com.igp.studentservice.service.{StudentService, StudentServiceImpl}
