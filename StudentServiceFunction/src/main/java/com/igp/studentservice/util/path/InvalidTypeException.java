@@ -1,5 +1,9 @@
 package com.igp.studentservice.util.path;
 
+/**
+ * Basic exception that is thrown when you are unable to cast something to something else. Mainly used in
+ * {@link StringToTypeConversionFactory}.
+ */
 public class InvalidTypeException extends RuntimeException {
 
     public InvalidTypeException(Throwable t) {

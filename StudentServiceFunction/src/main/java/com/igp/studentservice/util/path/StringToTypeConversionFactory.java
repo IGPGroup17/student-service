@@ -2,6 +2,11 @@ package com.igp.studentservice.util.path;
 
 import lombok.experimental.UtilityClass;
 
+/**
+ * This handles all the nonsense to do with type casting. It's just a Factory method which takes in the type of class
+ * you want to cast it to, then has a bunch of methods underneath to cast it to that, and just performs the cast for you.
+ * It throws an {@link InvalidTypeException} if it's unable to do this.
+ */
 @SuppressWarnings("unchecked")
 @UtilityClass
 public class StringToTypeConversionFactory {
