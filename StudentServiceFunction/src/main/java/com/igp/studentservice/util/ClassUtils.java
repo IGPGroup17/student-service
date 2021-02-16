@@ -6,6 +6,9 @@ import lombok.experimental.UtilityClass;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Boring unused stuff that may come in handy later. It just casts stuff safely but honestly i cba to use it lmao
+ */
 @SuppressWarnings("unchecked")
 @UtilityClass
 public class ClassUtils {
